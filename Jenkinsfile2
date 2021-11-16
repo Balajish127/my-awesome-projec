@@ -1,7 +1,7 @@
 node{
 stage("linux"){
   if(isUnix()){
-    sh "ls-ltr"
+    sh "ls -ltr"
   }
   else{
   bat "dir"
