@@ -1,0 +1,10 @@
+node{
+stage("linux"){
+  if(isunix()){
+    sh "ls-ltr"
+  }
+  else{
+  bat "dir"
+  }
+ }
+}
