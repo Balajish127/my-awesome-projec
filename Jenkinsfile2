@@ -1,6 +1,6 @@
 node{
 stage("linux"){
-  if(isunix()){
+  if(isUnix()){
     sh "ls-ltr"
   }
   else{
